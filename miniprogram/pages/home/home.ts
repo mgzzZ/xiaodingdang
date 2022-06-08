@@ -1,11 +1,16 @@
 // pages/home/home.ts
+
+const texts = [
+  '你好',
+]
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    text:texts[0]
   },
 
   /**
