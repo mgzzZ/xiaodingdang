@@ -1,3 +1,22 @@
-<!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
-<text>{{text}}</text>
+
+
+<view class="section">
+    <view class="bottom-view" style="flex-direction:row;">
+        <view class="bottom-left" >
+            <text class="name" >{{text}}</text>
+        </view>
+        <view class="bottom-mid"></view>
+        <view class="bottom-right"></view>
+    </view>
+</view>
+
+<view class="section">
+    <button bind:tap="onTap">按钮</button>
+    <view class="bottom-view" style="flex-direction:column;">
+        <view class="bottom-left" >
+            <text >{{text}}</text>
+        </view>
+        <view class="bottom-mid"></view>
+        <view class="bottom-right"></view>
+    </view>
+</view>

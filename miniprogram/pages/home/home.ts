@@ -67,5 +67,8 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+  onTap(){
+    console.log('打印');
   }
 })
